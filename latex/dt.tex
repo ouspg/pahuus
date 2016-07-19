@@ -24,6 +24,10 @@
 \usepackage{multirow}
 \tolerance=500
 
+% TODO hilight
+\usepackage{xcolor}
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
 %\usepackage[a4paper,margin=2.5cm,dvips]{geometry}
 %\geometry{papersize={210mm,297mm}}
 %dvipdf -sPAPERSIZE=a4
@@ -61,7 +65,7 @@
 	\vspace{65 mm}
 	{\textbf{\LARGE \getfirstname\ \getlastname }\\}
 	\vspace{15 mm}
-	{\textbf{\LARGE FIRST FRONT PAGE TITLE LINE\\ADDITIONAL IF NEEDED\\}}
+	{\textbf{\LARGE EVALUATING SIGNATURELESS NETWORK DETECTION METHODS\\}}
 	\vspace{70 mm}
 	{\large {Master's Thesis}\\}
 	{\large {Degree Programme in Computer Science and Engineering}\\}
@@ -72,9 +76,11 @@
 \selectlanguage{english}
 
 \begin{abstract}
+\todo{
 This is a sample abstract.
-
+}
 \keywords sample, keywords
+
 \end{abstract}
 
 \selectlanguage{finnish}
@@ -90,6 +96,7 @@ Esimerkkitiivistelmä
 \sisluettelo
 %\tableofcontents
 
+\iffalse
 \otsake{FOREWORD}
 This \LaTeX -template has been used by various people at department
 since the late 1990's, and has slowly improved over time.  It is still
@@ -103,6 +110,7 @@ will try to include them in further revisions.
 
 The template was updated during the summer of 2013 by Juha Kylmänen.
 %\allekirjoitus{Oulu, Finland \today}
+\fi
 
 \otsake{ABBREVIATIONS}
 
