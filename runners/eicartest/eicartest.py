@@ -30,7 +30,7 @@ except (Scapy_Exception, NameError):
     print json.dumps({"meta": {"error": "Scapy error", "found": 0}})
     sys.exit(4)
 
-EICAR = 'X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*'
+EICAR = 'X5OWDVPIVAlQEFQWzRcUFpYNTQoUF4pN0NDKTd9JEVJQ0FSLVNUQU5EQVJELUFOVElWSVJVUy1URVNU\nLUZJTEUhJEgrSCo='.decode('base64')
 
 found = 0
 
